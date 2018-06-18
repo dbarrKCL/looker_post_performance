@@ -16,23 +16,23 @@ view: page_views {
     sql: ${TABLE}.date ;;
   }
 
-  dimension: droid_page_views {
-    type: number
+  measure: droid_page_views {
+    type: sum
     sql: ${TABLE}.droid_page_views ;;
   }
 
-  dimension: droid_visitors {
-    type: number
+  measure: droid_visitors {
+    type: sum
     sql: ${TABLE}.droid_visitors ;;
   }
 
-  dimension: ios_page_views {
-    type: number
+  measure: ios_page_views {
+    type: sum
     sql: ${TABLE}.ios_page_views ;;
   }
 
-  dimension: ios_visitors {
-    type: number
+  measure: ios_visitors {
+    type: sum
     sql: ${TABLE}.ios_visitors ;;
   }
 
@@ -66,13 +66,13 @@ view: page_views {
     sql: ${TABLE}.post_type ;;
   }
 
-  dimension: web_page_views {
-    type: number
+  measure: web_page_views {
+    type: sum
     sql: ${TABLE}.web_page_views ;;
   }
 
-  dimension: web_page_visitors {
-    type: number
+  measure: web_page_visitors {
+    type: sum
     sql: ${TABLE}.web_page_visitors ;;
   }
 
