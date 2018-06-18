@@ -231,5 +231,9 @@ measure:   fb_engagements{
   sql: ${TABLE}.fb_engagements ;;
 }
 
+  measure:   avg_fb_engagements{
+    type: average
+    sql: ${TABLE}.fb_engagements ;;
+  }
 
   }
