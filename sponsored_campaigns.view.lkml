@@ -52,7 +52,7 @@ ORDER BY 1 DESC
 
   measure: total_components {
     type: sum
-    sql: ${TABLE}.total_componenents ;;
+    sql: ${TABLE}.total_components ;;
   }
 
   measure: sponsored_posts {
