@@ -33,3 +33,8 @@ explore: page_views{
   view_label: "page_views"
   label: "page_views"
 }
+
+explore: sponsored_campaigns {
+  view_label: "sponsored_campaigns"
+  label: "sponsored_campaigns"
+}
